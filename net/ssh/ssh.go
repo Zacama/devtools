@@ -30,7 +30,6 @@ func Connect(host, port, user, password string) (*Connection, error) {
 	}
 
 	return &Connection{conn, password}, nil
-
 }
 
 // Exec 执行命令, 返回标准输出
